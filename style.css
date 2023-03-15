@@ -1,10 +1,14 @@
   body {
        background-color: rgba(230,230,250,0.5);
+      /*imagem:copiar o endereço da imagem*/
+       background-image: url("https://static.glamurama.uol.com.br/2019/12/whatsapp-image-2019-12-12-at-18.10.13.jpeg");
+       background-repeat: no-repeat;
+       background-size: 100%;
   }
-  
    h1 {
        color: white;
        background-color: lightpink;
+       opacity:1;
        border:4px solid mediumpurple;
        border-style:dashed;
    }
@@ -14,7 +18,15 @@
     text-align:center;
   }
   .fonte-verde{
-    color:royalblue
+    color:royalblue;
+    border-style:solid;
+    border-width:5px 15px;
+    margin-left:50px;
+    margin-right: 50px;
+    padding-top:20px;
+    padding: 10px;
+    width: 90%;
+
   }
   /*ID*/
   #para {
